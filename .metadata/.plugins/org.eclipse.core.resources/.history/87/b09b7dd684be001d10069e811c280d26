@@ -1,0 +1,25 @@
+package bankAccount;
+
+public class Conta{
+	//definicao dos atributos
+	String titular;
+	String numConta;
+	double saldo;
+
+	// methods acessories and modificadores k (getters and setters)
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+	
+	public String getNome() {
+		return this.titular;
+		
+	}
+	public void setNumConta(String numConta) {
+		this.numConta = numConta;
+		
+	}
+	
+	
+}
+
