@@ -1,0 +1,10 @@
+package aula_methods;
+
+public class testeConta {
+	public static void main(String[] args) {
+		conta c1 = new conta();
+		c1.verficSaldo();
+		System.out.println("Titular: " + c1.getTitula());
+		System.out.println("Agencia" + c1.getAgencia());
+	}
+}
