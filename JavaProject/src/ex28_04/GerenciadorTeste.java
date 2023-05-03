@@ -1,4 +1,4 @@
-package aula15_1_arrayObjetos;
+package ex28_04;
 
 public class GerenciadorTeste {
 	
@@ -7,7 +7,7 @@ public class GerenciadorTeste {
 		GerenciadorContatos gc = new GerenciadorContatos(5);
 		gc.adicionarContatos();
 		gc.mostrarContatos();
-		
+		gc.buscarcontatos();
 	}
 	
 }

@@ -19,6 +19,12 @@ public class matrixEx01 {
         m [2][2] = 100;
 
         System.out.println("Elemento: " + m[1][1]);
+        System.out.println(m [0][1]);
+        System.out.println(matriz[1][1]);
+        matriz[0][2] = 26;
+        System.out.println(matriz[0][2]);
 
+        
     }
+
 }

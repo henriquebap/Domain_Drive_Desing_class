@@ -1,4 +1,4 @@
-package aula15_1_arrayObjetos;
+package ex28_04;
 
 import java.util.Scanner;
 
@@ -63,9 +63,7 @@ public class GerenciadorContatos {
 //			System.out.println("--------------------------------------");
 		}
 	}
-	
 	//TO DO
 	// Criar um método para buscar um contato
 	// Criar um método para apagar um contato
-	
 }
