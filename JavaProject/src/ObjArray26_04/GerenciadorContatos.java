@@ -1,4 +1,4 @@
-package ObjArray2_04;
+package ObjArray26_04;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class GerenciadorContatos{
         return agenda;
     }
     public void mostraConato(){
-        for(i=0; i<agenda.length; i++){
+        for(int i=0; i<agenda.length; i++){
             System.out.println("Nome: " + agenda[i].getName());
             System.out.println("Telefone: " + agenda[i].getTelefone());
             

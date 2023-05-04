@@ -8,8 +8,8 @@ public class Contato{
     public Contato(){
         
     }
-    public Contato (String nome, String telefone){
-        this.nome = nome;
+    public Contato (String name, String telefone){
+        this.name = name;
         this.telefone = telefone;
     }
     public String getName() {

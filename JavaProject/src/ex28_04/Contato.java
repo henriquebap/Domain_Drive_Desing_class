@@ -1,4 +1,4 @@
-package aula15_1_arrayObjetos;
+package ex28_04;
 
 public class Contato {
 	
