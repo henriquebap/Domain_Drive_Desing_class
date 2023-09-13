@@ -2,7 +2,7 @@ package cp4;
 
 import java.util.ArrayList;
 
-public class Teste{
+public class teste{
     public static void main(String[] args) {
 
         ArrayList<Onibus> list = new ArrayList<>();
