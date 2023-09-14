@@ -18,7 +18,7 @@ public class ProgramaPrincipal {
         }
 
         UsuarioDAO usuarioDAO = new UsuarioDAO(conexao);
-        Usuario novoUsuario = new Usuario(0, "Henrique", "henriquebaptista2003@gmail.com"));
+        Usuario novoUsuario = new Usuario(0, "Henrique", "henriquebaptista2003@gmail.com");
 
         try {
             usuarioDAO.inserir(novoUsuario);
@@ -29,6 +29,6 @@ public class ProgramaPrincipal {
 
         usuarioDAO.ListarPorID(0);
         //funcoes do usuario DAO aqui
-        
+
     }
 }
