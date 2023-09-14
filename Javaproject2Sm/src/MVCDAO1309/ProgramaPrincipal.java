@@ -18,6 +18,17 @@ public class ProgramaPrincipal {
         }
 
         UsuarioDAO usuarioDAO = new UsuarioDAO(conexao);
-        usuarioDAO.inserir(new Usuario(0, "Henrique", "henriquebaptista2003@gmail.com"));
+        Usuario novoUsuario = new Usuario(0, "Henrique", "henriquebaptista2003@gmail.com"));
+
+        try {
+            usuarioDAO.inserir(novoUsuario);
+            System.out.println("Usuario inserido com sucesso");
+        } catch (SQLException e) {
+            System.err.println("Erro ao inserir o usuario" + e.getMessage());
+        }
+
+        usuarioDAO.ListarPorID(0);
+        //funcoes do usuario DAO aqui
+        
     }
 }
