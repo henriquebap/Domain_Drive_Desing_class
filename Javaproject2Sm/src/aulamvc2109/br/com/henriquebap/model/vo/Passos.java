@@ -6,6 +6,15 @@ public class Passos {
     private String numeroResultante;
     private String descricao;
 
+
+
+    public Passos(String numeroAnterior, String numeroResultante, String descricao){
+        this.numeroAnterior = numeroAnterior;
+        this.numeroResultante =numeroResultante;
+        this.descricao  = descricao;
+
+    }
+    
     public String getNumeroAnterior() {
         return this.numeroAnterior;
     }
