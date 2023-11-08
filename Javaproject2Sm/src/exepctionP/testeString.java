@@ -6,7 +6,7 @@ public class testeString {
         String frase = null;
         String novaFrase = null;
 
-        novaFrase = frase.toUpperCase();
+        // novaFrase = frase.toUpperCase();
         System.out.println("Frase Original: " + frase);
         System.out.println("Frase em Caixa alta: " + novaFrase);
 
